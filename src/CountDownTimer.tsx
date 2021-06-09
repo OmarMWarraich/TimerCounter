@@ -1,14 +1,14 @@
 import React from 'react';
 
-interface ICountdown {
-    hours: number;
-    minutes: number;
-    seconds: number;
-}
+// interface ICountdown {
+//     hours: number;
+//     minutes: number;
+//     seconds: number;
+// }
 
-const CountDownTimer = ({ hours = 0, minutes = 0, seconds = 60}: ICountdown) => {
+const CountDownTimer = ({ hours = 0, minutes = 0, seconds = 60}) => {
  
-    const [time, setTime] = React.useState<ICountdown>({hours,minutes,seconds});
+    const [time, setTime] = React.useState({hours,minutes,seconds});
     
     
 
